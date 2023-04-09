@@ -23,10 +23,16 @@ export class Professional {
 
     }
 
-    showTheAtributes():string {
+    public showTheAtributes() {
 
-        return "Name - " + this.name + "\n" + "Age -" + this.age + "\n" + "Weight -" + this.weight + "\n" + "Height -" + this.height + "\n" + "Is Retired? -" + this.isRetired + "\n" + "Nationality -" + this.nationallity + "\n" + "Oscars number: -" + this.oscarNumber + + "\n" + "Profession: -" + this.profession;
+        console.log("Name: " + this.name + "\n" + "Age:" + this.age + "\n" + "Weight:" + this.weight + "\n" + "Height: " + this.height + "\n" + "Is Retired?: " + this.isRetired + "\n" + "Nacionality: " + this.nationallity + "\n" + "Oscars number: " + this.oscarNumber + "\n" + "Profession: " + this.profession);
 
     }
+
+    public showJustName(){
+
+        return "Professional " + this.name;
+    }
+
 }
 
